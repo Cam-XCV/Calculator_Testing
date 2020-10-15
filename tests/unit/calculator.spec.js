@@ -62,7 +62,7 @@ describe('App.vue', () => {
     wrapper.previousTotal = 0;
     wrapper.vm.numberClick(5);
     wrapper.vm.clearClick();
-    expect(wrapper.vm.runningTotal).to.equal(0);                    // not sure best way to show this
+    expect(wrapper.vm.runningTotal).to.equal(0);                   // not sure what this is actually looking for?
   });
 
   
